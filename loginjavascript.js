@@ -12,11 +12,13 @@ window.onload=function()
     projectId: "homeautomationcec",
     storageBucket: "",
     messagingSenderId: "1050623757818"
+    
   };
 
   firebase.initializeApp(config);
 
       var database=firebase.database();
+      
     
     
     var userref=database.ref('Registereduser/');
@@ -80,7 +82,7 @@ signinbutton.addEventListener('click',verify);
                     }
                 }
         else{
-            console.log("check your username and id");
+            console.log("check your username and id k");
         }
                 
             }
